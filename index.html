@@ -29,29 +29,88 @@
       h1 {
         color: white;
         text-align: center;
+        margin-bottom: 0px;
       }
 
       #home,
       #background,
       #business {
+        height: 800px;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      #india,
+      #uk,
+      #dubai,
+      #canada,
+      #costarica,
+      #us {
+        height: 300px;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      #india {
+        background-color: #D2B891;
+      }
+
+      #uk {
+        background-color: #FCE3BE;
+      }
+
+      #dubai {
+        background-color: #D2B891;
+      }
+
+      #canada {
+        background-color: #FCE3BE;
+      }
+
+      #costarica {
+        background-color: #D2B891;
+      }
+
+      #us {
+        background-color: #FCE3BE;
+      }
+
+      #home p {
+        text-align: justify;
+        width: 100%;
+        float: left;
+        margin-right: 10px;
+      }
+
+      #image {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+
+      h2 {
+        text-align: center;
+        margin-top: 0px;
+      }
+
+      #background {
+        background-color: #FCE3BE;
         height: 700px;
         padding: 20px;
         margin-top: 20px;
       }
 
-      #home p {
-        text-align: left;
-        float: left;
-      }
-
-      img {
-        float: right;
-      }
-
-      #background {
-        background-color: brown;
-        height: 700px;
-        padding: 20px;
+      #image2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
         margin-top: 20px;
       }
     </style>
@@ -67,23 +126,73 @@
       <h2>
         ABOUT ME
       </h2>
+
       <p>
+
         I am 19 years old and so far I have lived in 6 countries, 9 cities and 3 continents.
         Each of these places has shaped me as an individual and made me the creator I am today.
         However, I believe Canada is the one place I grew the most as I came in as
         an international student and had to figure life out by myself without my parents or any known soul.
         Although this expanded my life skills, GBDA is the one that made me a designer, a creative thinker and a marketer.
         Throughout this website you will see and understand how each experience has led to the becoming of the person on the right.
-        <img src="my_image/me.jpg" alt="AN IMAGE OF ME">
-      </p>
 
-      <!-- Home content goes here -->
+      </p>
+      <div id="image">
+        <img src="me.jpeg" alt="AN IMAGE OF ME" width="200" height="250">
+        <img src="me_summer.jpeg" alt="AN IMAGE OF ME" width="200" height="250">
+        <img src="me_bellie.jpeg" alt="AN IMAGE OF ME" width="200" height="250">
+        <img src="me_pisco.jpeg" alt="AN IMAGE OF ME" width="200" height="250">
+        <img src="me_birthday.jpeg" alt="AN IMAGE OF ME" width="200" height="250">
+        <img src="me_nepal.jpeg" alt="AN IMAGE OF ME" width="200" height="250">
+      </div>
     </div>
     <div id="background">
-      <!-- Background content goes here -->
+      <h1>
+        BACKGROUND
+      </h1>
+      <div id="image2">
+        <a href="#india"> <img src="india.jpeg" alt="AN IMAGE OF ME" width="200" height="250"></a>
+        <a href="#uk"> <img src="uk.jpeg" alt="AN IMAGE OF ME" width="200" height="250"></a>
+        <a href="#dubai"> <img src="dubai.jpeg" alt="AN IMAGE OF ME" width="200" height="250"></a>
+        <a href="#canada"> <img src="canada.jpeg" alt="AN IMAGE OF ME" width="200" height="250"></a>
+        <a href="#costarica"> <img src="costarica.jpeg" alt="AN IMAGE OF ME" width="200" height="250"></a>
+        <a href="#us"> <img src="us.jpeg" alt="AN IMAGE OF ME" width="200" height="250"></a>
+      </div>
+    </div>
+    <div id="india">
+      <h2>
+        INDIA
+      </h2>
+    </div>
+    <div id="uk">
+      <h2>
+        UK
+      </h2>
+    </div>
+    <div id="dubai">
+      <h2>
+        DUBAI
+      </h2>
+    </div>
+    <div id="canada">
+      <h2>
+        CANADA
+      </h2>
+    </div>
+    <div id="costarica">
+      <h2>
+        COSTA RICA
+      </h2>
+    </div>
+    <div id="us">
+      <h2>
+        UNITED STATES
+      </h2>
     </div>
     <div id="business">
-      <!-- Business content goes here -->
+      <h1>
+        BUSINESS
+      </h1>
     </div>
   </body>
 </html>
