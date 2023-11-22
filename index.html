@@ -113,7 +113,7 @@
         margin-bottom: 10px;
         margin-top: 20px;
       }
-      
+
       #businessimg {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -122,6 +122,48 @@
         height: auto;
         margin-bottom: 10px;
         margin-top: 20px;
+      }
+
+      .timeline {
+        width: 100%;
+        height: 20px;
+        position: relative;
+        margin: 50px 0;
+      }
+
+      .timeline::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #333;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .event {
+        position: absolute;
+        bottom: -35px;
+        width: 100px;
+        text-align: center;
+        font-size: 12px;
+      }
+
+      .event::before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: #333;
+        border-radius: 50%;
+        top: -23px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .event:last-child {
+        left: calc(100% - 15px);
+        margin-top: 50px;
       }
     </style>
   </head>
@@ -160,6 +202,13 @@
       <h1>
         BACKGROUND
       </h1>
+      <div class="timeline">
+        <div class="event" style="left: -7%;">2003<br>INDIA</div>
+        <div class="event" style="left: 15%;">2018<br>UK</div>
+        <div class="event" style="left: 40%;">2020<br>DUBAI</div>
+        <div class="event" style="left: 65%;">2022<br>CANADA</div>
+        <div class="event" style="left: 87%;">2023<br>COSTA RICA & US</div>
+      </div>
       <div id="image2">
         <a href="#india"> <img src="india.jpeg" alt="AN IMAGE OF ME" width="200" height="250"></a>
         <a href="#uk"> <img src="uk.jpeg" alt="AN IMAGE OF ME" width="200" height="250"></a>
