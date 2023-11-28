@@ -18,7 +18,6 @@
 
       header {
         background-color: #FCE3BE;
-        color: white;
         padding: 10px;
         height: 20px;
         text-align: left;
@@ -43,6 +42,8 @@
         padding: 20px;
         margin-top: 20px;
       }
+
+
 
       #india,
       #uk,
@@ -87,13 +88,17 @@
         height: 250px;
       }
 
+      #uk h2 {
+        color: #B27D15;
+      }
+
       #uk p {
         margin-top: 1px;
         margin-left: 10px;
         width: calc(100% - 250px);
         float: left;
         text-align: justify;
-        color: #333;
+        color: #B27D15;
       }
 
       #dubai {
@@ -132,7 +137,11 @@
         width: calc(100% - 250px);
         float: left;
         text-align: justify;
-        color: #333;
+        color: #B27D15;
+      }
+
+      #canada h2 {
+        color: #B27D15;
       }
 
       #costarica {
@@ -171,7 +180,11 @@
         width: calc(100% - 250px);
         float: left;
         text-align: justify;
-        color: #333;
+        color: #B27D15;
+      }
+
+      #us h2 {
+        color: #B27D15;
       }
 
       #home p {
@@ -196,23 +209,6 @@
         margin-top: 0px;
       }
 
-      #background {
-        background-color: #FCE3BE;
-        height: 700px;
-        padding: 20px;
-        margin-top: 20px;
-      }
-
-      #image2 {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-        margin-top: 20px;
-      }
-
       #businessimg {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -230,19 +226,44 @@
       .buisimage h2 {
         margin-top: 10px;
       }
-      
-      .buisimage p {
+
+      #buisimage p {
         text-align: justify;
       }
-      
+
       #business p {
-  text-align: center; /* Center align the text within the paragraph */
-}
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
       #business p a {
-  color: brown; /* Change the link color to brown */
-  text-decoration: none; /* Optional: removes the underline from the link */
-}
-      
+        color: white;
+        text-decoration: none;
+      }
+
+
+      #background {
+        background-color: #FCE3BE;
+        height: 700px;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      #background h1 {
+        color: #B27D15;
+      }
+
+      #image2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+      }
+
+
 
       .timeline {
         position: relative;
@@ -259,7 +280,7 @@
         position: absolute;
         width: 100%;
         height: 2px;
-        background-color: #333;
+        background-color: #B27D15;
         top: 50%;
         transform: translateY(-50%);
       }
@@ -270,7 +291,7 @@
         width: 120;
         text-align: center;
         font-size: 12px;
-        color: #333;
+        color: #B27D15;
       }
 
       .event::before {
@@ -278,7 +299,7 @@
         position: absolute;
         width: 10px;
         height: 10px;
-        background-color: #333;
+        background-color: #B27D15;
         border-radius: 50%;
         top: -23px;
         left: 50%;
@@ -366,7 +387,7 @@
       </h2>
       <img src="dubai.para.jpeg" alt="image of dubai" width="200" height="250">
       <p>
-        Dubai so far is my favourite place that we have moved in to. It showed me a whole new world and was an astounding experience. I moved here when I was 16 years old in the middle of the pandemic. I started 11th grade but only 6 months later, I had to move into a boarding school in Bangalore to finish my high school due to my father's job. However, I will say that this was a blessing in disguise as I finally got to reconnect with all of my friends after 6 years and make the best of friends in my new school whom I now call my family. While all of my friends once again resided in India, I had no friends to go back home to until I met 3 other girls who had the same background as me in terms of the number of countries we had lived in and one of them was in the same situation as me as she too was doing boarding school in India. I think its fair to say that all factors combined and especially having found these girls, Dubai turned out to be the best place I have lived in so far. 
+        Dubai so far is my favourite place that we have moved in to. It showed me a whole new world and was an astounding experience. I moved here when I was 16 years old in the middle of the pandemic. I started 11th grade but only 6 months later, I had to move into a boarding school in Bangalore to finish my high school due to my father's job. However, I will say that this was a blessing in disguise as I finally got to reconnect with all of my friends after 6 years and make the best of friends in my new school whom I now call my family. While all of my friends once again resided in India, I had no friends to go back home to until I met 3 other girls who had the same background as me in terms of the number of countries we had lived in and one of them was in the same situation as me as she too was doing boarding school in India. I think its fair to say that all factors combined and especially having found these girls, Dubai turned out to be the best place I have lived in so far.
       </p>
     </div>
     <div id="canada">
@@ -375,7 +396,7 @@
       </h2>
       <img src="canada.para.jpeg" alt="image of canada" width="200" height="250">
       <p>
-        I have grown the most as a person, an artist and as a business woman in Canada. This is solely due to the fact that even though I have moved around my whole life and I have a lot of experince with adapting to new cultures, this particular move was my own. My parents did not recieve their Canadian visa until March 2023 and so I had to move into univeristy all by myself in the first year. I had never even visited Canada before so this really was a big move especially given that my parents lived in Dubai at the time.  Luckily that wasn't the case and now 2 years into my life here I am proud of how far I have come. Since my move, I have achieved my dream grades, put up a stall at the GBDA market fair and made an amazing group of diverse friends whom I continue to learn from everyday.
+        I have grown the most as a person, an artist and as a business woman in Canada. This is solely due to the fact that even though I have moved around my whole life and I have a lot of experince with adapting to new cultures, this particular move was my own. My parents did not recieve their Canadian visa until March 2023 and so I had to move into univeristy all by myself in the first year. I had never even visited Canada before so this really was a big move especially given that my parents lived in Dubai at the time. Luckily that wasn't the case and now 2 years into my life here I am proud of how far I have come. Since my move, I have achieved my dream grades, put up a stall at the GBDA market fair and made an amazing group of diverse friends whom I continue to learn from everyday.
       </p>
     </div>
     <div id="costarica">
@@ -405,26 +426,26 @@
           <img src="necklace.jpeg" alt="Necklace" width="200" height="250">
           <h2>About the Business</h2>
           <p>
-        It is a handmade jwellery business that runs online. I market my products on TikTok and Instagram and I sell them via Instagram. The business has been up and running for around 3 years however I did pause for a year in the middle as I transitioned into univeristy and being an international student I was unable to bring my products with me. This year however, I finally brought my all my jewllery and ran my first physical stall as part of the GBDA market. I plan on expanding the range of products and continuing my business in Canada over the next few years. 
+            It is a handmade jwellery business that runs online. I market my products on TikTok and Instagram and I sell them via Instagram. The business has been up and running for around 3 years however I did pause for a year as I being an international student I was unable to bring my products with me. This year I finally brought all my products and ran my first physical stall in university. I plan on expanding and continuing my business in Canada over the next few years.
           </p>
         </div>
         <div class="buisimage">
           <img src="business.jpeg" alt="Business" width="200" height="250">
           <h2>Why I Started</h2>
           <p>
-             I started this business on 27th December 2020.I have always been a creative child and have also sold some of my handmade items in market places ever since I was 9 years old. In 2020 however, due to the uncertainty of my dad's job, I decided to help him out by starting my own business as he is the only sole earner in my household and I believed that anything I can do no matter how small, would help. I also wanted to support a good cause. So, whatever amount I make I donate 10% of it to charity.
+            I started this business on 27th December 2020.I have always been a creative child and have also sold some of my handmade items in market places ever since I was 9 years old. In 2020 however, due to the uncertainty of my dad's job, I decided to help him out by starting my own business as he is the only sole earner in my household and I believed that anything I can do no matter how small, would help. I also wanted to support a good cause. So, whatever amount I make I donate 10% of it to charity.
           </p>
         </div>
         <div class="buisimage">
           <img src="handmade.jpeg" alt="Handmade" width="200" height="250">
           <h2>My Process</h2>
           <p>
-             I always loved making jewellery in some form or the other, whether it was out of clay, using beads, paper, plastic etc. As I grew older and saw all the small businesses on TikTok making real jewellery, I decided to have a go at it and reserached for 2 weeks straight to source all my materials. I finally made good quality pieces and also included items with my own touch to it like wire rings and clay jewellery holders with fun designs. Because everything is handmade, I decided to name the business handmadebyrachi. 
+            I always loved making jewellery in some form or the other, whether it was out of clay, using beads, paper, plastic etc. As I grew older and saw all the small businesses on TikTok making real jewellery, I decided to have a go at it and reserached for 2 weeks straight to source all my materials. I finally made good quality pieces and also included items with my own touch to it like wire rings and clay jewellery holders with fun designs. Because everything is handmade, I decided to name the business handmadebyrachi.
           </p>
         </div>
-             
+
       </div>
-       <p><a href="https://handmadebyrachi.wixsite.com/shop">Check Out My Store!</a></p> 
+      <p><a href="https://handmadebyrachi.wixsite.com/shop">Check Out My Store!</a></p>
     </div>
 
   </body>
