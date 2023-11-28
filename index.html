@@ -47,8 +47,6 @@
         margin-top: 20px;
       }
 
-
-
       #india,
       #uk,
       #dubai,
@@ -264,8 +262,6 @@
         margin-top: 20px;
       }
 
-
-
       .timeline {
         position: relative;
         scale: 0.95;
@@ -312,25 +308,21 @@
         margin-top: 50px;
       }
 
-      #image,
-      #image2,
-      #businessimg {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-      }
-
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 700px) {
 
         #image,
         #image2,
         #businessimg {
           grid-template-columns: 1fr;
+          float: none;
         }
 
         h1,
-        h2 {
-          font-size: 1.5em;
+        h2,
+        p {
+          font-size: 15;
+          width: 100%;
+          float: none;
         }
 
         #home,
@@ -343,15 +335,12 @@
         #costarica,
         #us {
           padding: 10px;
+          float: none;
         }
 
         img {
           width: 100%;
           height: auto;
-        }
-
-        p {
-          width: 100%;
           float: none;
         }
       }
