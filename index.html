@@ -23,9 +23,8 @@
         padding: 10px;
         height: 20px;
         text-align: left;
-         display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-around;
       }
 
       header a {
@@ -209,7 +208,7 @@
       }
 
 
-     #home h2 {
+      #home h2 {
         text-align: center;
         margin-top: 0px;
         font-size: 2em;
@@ -312,36 +311,50 @@
         left: calc(100% - 15px);
         margin-top: 50px;
       }
-      
-       #image, #image2, #businessimg {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-  }
 
-  @media screen and (max-width: 768px) {
-    #image, #image2, #businessimg {
-      grid-template-columns: 1fr;
-    }
+      #image,
+      #image2,
+      #businessimg {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
 
-    h1, h2 {
-      font-size: 1.5em;
-    }
+      @media screen and (max-width: 768px) {
 
-    #home, #background, #business, #india, #uk, #dubai, #canada, #costarica, #us {
-      padding: 10px;
-    }
+        #image,
+        #image2,
+        #businessimg {
+          grid-template-columns: 1fr;
+        }
 
-    img {
-      width: 100%; 
-      height: auto;
-    }
+        h1,
+        h2 {
+          font-size: 1.5em;
+        }
 
-    p {
-      width: 100%;
-      float: none;
-    }
-  }
+        #home,
+        #background,
+        #business,
+        #india,
+        #uk,
+        #dubai,
+        #canada,
+        #costarica,
+        #us {
+          padding: 10px;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        p {
+          width: 100%;
+          float: none;
+        }
+      }
     </style>
   </head>
   <body>
